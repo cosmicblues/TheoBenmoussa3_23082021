@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAC;EACf,OAAO,EAAE,IAAI;CACb",
+    "sources": [
+        "fonctionnement.scss"
+    ],
+    "names": [],
+    "file": "fonctionnement.css"
+}

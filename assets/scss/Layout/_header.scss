@@ -1,0 +1,19 @@
+header img {
+  object-fit: cover;
+  width: 50%;
+}
+
+.arrow {
+    position: absolute;
+    left: 20px;
+}
+
+.top_menu {
+    @include top_menu;
+    h2 {
+      font-weight: bold;
+    }
+    p {
+      color: #4d4d4d;
+    }
+  }
