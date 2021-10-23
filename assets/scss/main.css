@@ -1,0 +1,160 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 16px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style-type: none;
+}
+
+header img {
+  display: block;
+  margin: auto;
+}
+
+.location div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #F2F2F2;
+}
+
+.top_menu div {
+  background-color: #F2F2F2;
+  text-align: center;
+}
+
+.fonctionnement {
+  padding: 10px;
+}
+
+.each_fonction {
+  border-radius: 24px;
+  margin: 5px;
+  background-color: #F2F2F2;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.each_fonction p {
+  text-align: center;
+}
+
+.restaurants_fond {
+  background-color: #F2F2F2;
+  padding: 10px;
+}
+
+.restaurant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 32px;
+  border-radius: 24px;
+  width: 96%;
+  display: -ms-grid;
+  display: grid;
+  border-radius: 20px;
+  margin: 10px 10px;
+  padding: 5px;
+  -webkit-box-shadow: 0 0 10px 2px #bababa;
+          box-shadow: 0 0 10px 2px #bababa;
+}
+
+.restaurant a {
+  text-decoration: none;
+}
+
+.image_restaurant {
+  width: 100%;
+  height: 260px;
+}
+
+.image_restaurant img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  max-height: 100%;
+  border-radius: 16px 16px 0 0;
+}
+
+footer {
+  background-color: gray;
+  color: white;
+  text-decoration: none;
+}
+
+@media (min-width: 1250px) {
+  .ensemble {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .restaurant {
+    width: 40%;
+  }
+}
+
+header img {
+  display: block;
+  margin: auto;
+}
+
+.restaurant_img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  max-height: 100%;
+}
+
+.menu {
+  background-color: #F2F2F2;
+  border-radius: 24px;
+  padding: 5px;
+}
+
+.unité {
+  padding: 32px;
+  border-radius: 24px;
+  width: 96%;
+  display: -ms-grid;
+  display: grid;
+  border-radius: 20px;
+  margin: 10px 10px;
+  padding: 5px;
+  -webkit-box-shadow: 0 0 10px 2px #bababa;
+          box-shadow: 0 0 10px 2px #bababa;
+  background-color: white;
+}
+
+.command {
+  border-radius: 20px;
+  margin: auto;
+  padding: 5px;
+  -webkit-box-shadow: 0 0 10px 2px #bababa;
+          box-shadow: 0 0 10px 2px #bababa;
+}
+/*# sourceMappingURL=main.css.map */
