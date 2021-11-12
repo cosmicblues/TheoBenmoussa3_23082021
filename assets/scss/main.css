@@ -70,6 +70,7 @@ footer {
   color: white;
   text-decoration: none;
   padding: 25px;
+  margin-top: 10px;
 }
 
 .footer_title {
@@ -259,6 +260,25 @@ body {
 .explorer_menu p {
   color: white;
   vertical-align: middle;
+  text-align: center;
+}
+
+.fill {
+  bottom: 1em;
+  color: #000;
+  cursor: pointer;
+  position: absolute;
+  right: 1em;
+  transition: all 0.2s ease-in-out;
+}
+
+.fill:hover {
+  background: linear-gradient(#9356DC, #FF79DA);
+  color: #fff;
+  font-weight: 600;
+  transform: scale(1.2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .location {
@@ -320,6 +340,18 @@ body {
     width: 40%;
   }
 }
+.prix_menu {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  line-height: 1.5em;
+}
+
+.unité {
+  cursor: pointer;
+  text-overflow: ellipsis;
+}
+
 .restaurant_img img {
   object-fit: cover;
   width: 100%;

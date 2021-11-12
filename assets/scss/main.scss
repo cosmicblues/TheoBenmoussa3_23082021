@@ -12,7 +12,16 @@
 		width: 40%;
 	}
 }
-
+.prix_menu {
+	display: flex;
+    justify-content: right;
+    align-items: center;
+    line-height: 1.5em;
+}
+.unité {
+	cursor: pointer;
+	text-overflow: ellipsis;
+}
 .restaurant_img {
 	img {
 		object-fit: cover;

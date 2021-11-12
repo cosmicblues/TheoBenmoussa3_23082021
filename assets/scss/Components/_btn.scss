@@ -8,5 +8,23 @@
     p {
       color: white;
       vertical-align: middle;
+      text-align: center;
     }
   }
+
+.fill {
+  bottom: 1em;
+  color: #000;
+  cursor: pointer;
+  position: absolute;
+  right: 1em;
+      transition: all .2s ease-in-out;
+  }
+.fill:hover {
+  background: linear-gradient(#9356DC, #FF79DA);
+  color: #fff;
+  font-weight: 600;
+  transform: scale(1.2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
