@@ -1,3 +1,13 @@
 .each_fonction {
     @include each_fonctionnement;
   }
+
+@media (min-width: 1250px) {
+    .each_fonction {
+      width: 33%;
+    }
+    .three_fonction {
+    display: flex;
+    align-content: space-between;
+    }
+  }
