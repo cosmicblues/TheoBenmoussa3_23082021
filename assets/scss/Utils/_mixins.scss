@@ -16,6 +16,8 @@
 	cursor: pointer;
 	width: 35%;
 	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 @mixin number {
@@ -28,9 +30,10 @@
 	border: 2px solid $color-primary;
 	width: 25px;
 	height: 25px;
+	font-size: 16px;
 	position: relative;
 	top: 15px;
-	right: 1.7%;
+	right: 2.5%;
 }
 
 @mixin icon_num {
@@ -47,12 +50,13 @@
 	display: flex;
 	justify-content: left;
 	&:hover {
-		background-blend-mode: lighten;
-		box-shadow: 4px 4px 4px white;
-		opacity: 0.5;
-		transition: 0.5s;
+		background-color: #e4d5f6;
+		box-shadow: 4px 4px 4px rose;
 		cursor: pointer;
 		border: gray;
+	}
+	&:hover > .icon_number::before {
+		color: rebeccapurple;
 	}
 	p {
 		margin-left: 25px;

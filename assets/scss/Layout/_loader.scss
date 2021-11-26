@@ -4,12 +4,11 @@ body {
 }
 
 .loader {
-	width: 75px;
-	height: 75px;
+	width: 150px;
+	height: 150px;
 	margin: 0;
-	background: transparent;
-	border-top: 4px solid #009688;
-	border-right: 4px solid transparent;
+	border-top: 15px solid #99e2d0;
+	border-bottom: 15px solid #ff79da;
 	border-radius: 50%;
 	animation: 3s spin linear, 3s disapear;
 	animation-iteration-count: 1;

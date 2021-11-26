@@ -1,3 +1,12 @@
 .number {
     @include number;
   }
+
+@media (max-width: 1250px) {
+    .number {
+      top: 27px;
+    }
+    .icon_number {
+      top: 28px !important;
+    }
+  }
