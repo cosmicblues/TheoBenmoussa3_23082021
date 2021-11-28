@@ -237,6 +237,7 @@ body {
 }
 .titre {
   padding: 5px;
+  display: flex;
 }
 
 .titre h1 {
@@ -412,6 +413,14 @@ body {
   bottom: 65px;
 }
 
+.fill_2 {
+  color: #000;
+  cursor: pointer;
+  position: absolute;
+  right: 6%;
+  transition: all 0.2s ease-in-out;
+}
+
 .plein {
   display: none !important;
 }
@@ -427,6 +436,20 @@ body {
   display: block !important;
 }
 .fill:hover .border {
+  display: none;
+}
+
+.fill_2:hover {
+  background: linear-gradient(#9356dc, #ff79da);
+  font-weight: 600;
+  transform: scale(1.2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fill_2:hover .plein {
+  display: block !important;
+}
+.fill_2:hover .border {
   display: none;
 }
 
@@ -479,7 +502,6 @@ body {
 }
 .each_fonction:hover {
   background-color: #e4d5f6;
-  box-shadow: 4px 4px 4px rose;
   cursor: pointer;
   border: gray;
 }
