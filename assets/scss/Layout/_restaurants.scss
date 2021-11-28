@@ -9,7 +9,7 @@
 	width: 96%;
 	display: grid;
 	border-radius: 20px;
-	margin: 10px 10px;
+	margin: 10px 0 0 30px;
 	padding: 5px;
 	box-shadow: 0 0 10px 2px #bababa;
 	a {
@@ -79,24 +79,33 @@
     width: 85px;
 }
 .prix_menu {
-	margin-right: 10px;
+	width: 100px;
+	margin-right: 20px;
 	display: flex;
 	justify-content: right;
 	align-items: center;
 	font-size: 20px;
 	line-height: 1.5em;
+	font-weight: bold;
 }
 
 .text_menu {
+	min-width: 0;
 	flex-grow: 1;
 	padding: 0 25px;
 }
 .text_menu h4 {
 	font-size: 20px;
 	margin: 12px 0 0 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 
 .text_menu p {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 	margin: 7px 0 10px 0;
 }
 
@@ -124,7 +133,7 @@
 	width: 96%;
 	display: flex;
 	border-radius: 20px;
-	margin: 10px 10px;
+	margin: 30px 10px;
 	box-shadow: 0 0 10px 2px #bababa;
 	background-color: white;
 }
@@ -137,7 +146,7 @@
 
 .unité:hover .checking {
 	width: 70px;
-	animation: 0.5s ease-in-out btn_slide;
+	transition: 0.5s ease-in-out;
 }
 
 .unité:hover .check {
@@ -157,5 +166,14 @@
 	.plat,
 	.dessert {
 		display: flex;
+	}
+}
+
+@media (max-width: 1250px) {
+	.text_menu p {
+		font-size: 25px;
+	}
+	.text_menu h4 {
+		font-size: 28px;
 	}
 }

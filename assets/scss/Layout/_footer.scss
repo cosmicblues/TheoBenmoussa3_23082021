@@ -27,3 +27,11 @@ footer {
 .footer_link {
 	color: white !important;
 }
+
+@media (max-width: 1250px) {
+	footer {
+		min-height: 30%;
+		height: auto;
+		bottom: 0 !important;
+	}
+}

@@ -22,11 +22,11 @@
 .checking {
 	border-radius: 0 15px 15px 0;
 	overflow: hidden;
-	text-align: center;
 	background: #99e2d0;
 	width: 0px;
-	align-items: center;
-	padding-top: 27px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .check {
